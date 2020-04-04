@@ -26,3 +26,10 @@ git add . // 提交所有的改动文件
 git add filename // 提交文件
 ```
 
+- `git commit`
+
+```bash
+git commit
+git commit -m "message body"
+```
+
