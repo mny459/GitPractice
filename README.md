@@ -69,3 +69,6 @@ commit ea7bcb3f35d856230980730ec94e06666d6d65c2 (HEAD -> master, origin/master, 
 ```
 
 > HEAR：指向的是当前工作目录所在的位置
+>
+> master：表示分支
+
