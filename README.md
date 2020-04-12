@@ -56,7 +56,7 @@ git commit -m "message body"
 git push origin [branch_name] // branch_name 可以省略  
 ```
 
-- `git pull origin` 
+- `git `
 
 ```
 
