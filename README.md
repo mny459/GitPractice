@@ -1,4 +1,5 @@
 # GitPractice
+
 练习使用 Git
 
 > 和 SVN 的区别：
@@ -24,7 +25,7 @@
 git clone url [local_folder_name]
 ```
 
-- git log` 查看日志
+- `git log` 查看日志
 
 ```bash
 GitPractice % git log
@@ -48,6 +49,7 @@ git add filename // 提交文件
 git commit
 git commit -m "message body"
 ```
+
 > 
 
 - `git push origin`
@@ -56,11 +58,40 @@ git commit -m "message body"
 git push origin [branch_name] // branch_name 可以省略  
 ```
 
-- `git `
+- `git branch`: 创建一个 分支，但并没有切过去
+
+```shell
+git branch branch_name
+git checkout branch_name // 切换分支
+git checkout -b branch_name //
+git branch -d branch_name // 删除指定名字的分支
+```
+
+- `git merge`：合并分支
+
+```
+git merge 
+git merge --continue
 
 ```
 
+- `git status`：查看当前工作区的状态
+- `git diff `：比对改动
+
+- `git pull`：做了 fetch 和 merge 
+
 ```
+git fetch // 获取本地缺少的的，远端的东西 
+git merge orgin/master // 合并
+```
+
+- ·`git checkout`：将 HEAD 指向 位置
+
+```
+git checkout --detach
+```
+
+
 
 ## 概念补充
 
@@ -70,5 +101,11 @@ commit ea7bcb3f35d856230980730ec94e06666d6d65c2 (HEAD -> master, origin/master, 
 
 > HEAR：指向的是当前工作目录所在的位置
 >
-> master：表示分支
+> master：表示分支q
+>
+> 切分支：就是让HEAD 指向那个分支 
+
+
+
+
 
